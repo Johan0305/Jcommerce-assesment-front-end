@@ -1,0 +1,50 @@
+.Product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .productwithcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 50%;
+    height: 250px;
+    background-image: url("../../assets/Icon/LogoEggVW.png"); /* The image used */
+    background-color: transparent; /* Used if the image is unavailable */ /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 200px;
+    img {
+      border: 2px solid darkgoldenrod;
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  strong {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    button {
+      background-color: var(--grey-color);
+      border-radius: 10px;
+      height: 30px;
+      margin-top: 20px;
+    }
+  }
+}

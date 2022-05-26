@@ -1,0 +1,51 @@
+.MainHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  margin-top: 65px;
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .mainSwiper {
+    display: flex;
+
+    background-color: transparent;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+  }
+
+  .MainSwiperContent {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    img {
+      margin-bottom: 40px;
+    }
+  }
+  .container_hightlights {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
+}

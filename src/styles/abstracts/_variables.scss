@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+
+:root {
+  --grey-color: #e2e2e2;
+  --white-color: #fafafa;
+  --font-family: "Mate SC", serif;
+  --card-height: 200px;
+  --card-width: 200px;
+  --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+}

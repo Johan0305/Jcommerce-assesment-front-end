@@ -1,0 +1,21 @@
+.barNav {
+  width: 100%;
+  background-color: var(--white-color);
+  height: 65px;
+  box-shadow: 0px 1px 20px 0px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  z-index: 999;
+}
+
+.inputSearchNav {
+  width: 50%;
+  height: 30px;
+  border: 1px solid var(--grey-color);
+  border-radius: 4px;
+  outline: var(--white-color);
+  padding-left: 25px;
+}

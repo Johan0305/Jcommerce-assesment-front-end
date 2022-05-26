@@ -1,0 +1,17 @@
+//abstracts
+@import "./styles/abstracts/mixins";
+@import "./styles/abstracts/variables";
+//base
+@import "./styles/base/base";
+@import "./styles/base/resets";
+//pages
+@import "./styles/pages/About.scss";
+@import "./styles/pages/Home.scss";
+@import "./styles/pages/ProductDetail.scss";
+//components
+@import "./styles/components/nav/Nav.scss";
+@import "./styles/components/nav/ButtonNav.scss";
+@import "./styles/components/main/MainHome.scss";
+@import "./styles/components/Products.scss";
+@import "./styles/pages/AllProducts.scss";
+@import "./styles/components/Card.scss";

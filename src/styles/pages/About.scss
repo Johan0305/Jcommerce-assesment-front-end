@@ -1,0 +1,43 @@
+.mainAbout {
+  width: 100%;
+  height: 100vh;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .containerInfo {
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    .textDescription {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      height: 100%;
+      justify-content: space-between;
+
+      span {
+        strong {
+          font-size: 30px;
+        }
+        p {
+          margin-top: 30px;
+          font-size: 20px;
+        }
+      }
+    }
+    .imagePersonal {
+      width: 40%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      img {
+        border-radius: 20px;
+        border: 5px solid grey;
+      }
+    }
+  }
+}
